@@ -1,2 +1,4 @@
 build/
 !build/*.pdf
+
+fig/*-eps-converted-to.pdf
