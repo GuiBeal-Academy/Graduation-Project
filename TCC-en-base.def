@@ -1,0 +1,28 @@
+%%%%%
+%%
+%% those are loaded, on the fly, when selecting, or switching, to english (\@namedef{captionsenglish} vis-à-viz \begin{otherlanguage}{})
+%%
+%%%%%
+
+%	\def\bibname{References}% deprecated by biber
+%	\def\refname{\bibname}
+	\def\abstractname{Abstract}%
+	\def\englishabstractname{Abstract}%
+	\def\appendixname{Appendix}%
+	\def\contentsname{Contents}%
+	\def\listfigurename{List of Figures}%
+	\def\listtablename{List of Tables}%
+	\def\figurename{Figure}%
+	\def\tablename{Table}%
+	\def\byname{by}%
+	\def\keywordsname{Keywords}%
+	
+	\def\listabbrvname{List of Abbreviations}%
+	\def\listsymbolname{List of Symbols}%
+  \def\sourcename{Source:}%
+	\def\cipcaption{CIP -- CATALOGING-IN-PUBLICATION}%
+	\def\annexname{Annex}%
+
+  \def\listingname{Listing}
+  \def\listlistingname{List of Listings}
+	\def\notename{Note}

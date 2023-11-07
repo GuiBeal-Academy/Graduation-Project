@@ -1,0 +1,227 @@
+\makeatletter
+	
+	
+	\@cdef{advisorname}{Advisor}%
+	\@cdef{coadvisorname}{Coadvisor}%
+	\@cdef{examinername}{Examination Committee}%
+
+  \location{Porto~Alegre}{RS}
+
+\@cdef{university}{Federal University of Rio Grande do Sul}
+\@cdef{universityacronym}{UFRGS}
+\@cdef{universitydivision}{Engineering School}
+\@cdef{divisiongradcouncil}{Conselho de Graduação da \@universitydivision}
+\@cdef{secretaryacronym}{SACAD}
+\@cdef{secdivisionacronym}{\@secretaryacronym/EE}
+\@cdef{graduationtitle}{Control and Automation Engineering}
+\@cdef{course}{Control and Automation Engineering}
+\@cdef{courseacronym}{CCA}
+\@cdef{coursecoord}{current course coordinator}
+\@cdef{coursecoordtitle}{Course Coordinator}
+
+  \cipspecificinfo{Graduation Project}
+	\cipunit{\@universitydivision\ of~\@universityacronym}
+
+	\@cdef{TCCspecificinfo}{%
+		Graduation Project presented to COMGRAD-\@courseacronym\ of \@university\ 
+		in partial fulfillment of the requirements for the 
+		degree of \emph{\@graduationtitle }. 
+	}%
+	%%%%%\makeatother
+	
+	
+	\@cdef{TCCapproval}{%
+		This Project was considered adequate for obtaining the
+		credits of the course TCC (Diplom Project) of \emph{\@course } 
+		and approved in its final form by the Advisor and the Examination Committee.
+	}%
+	
+	
+	
+	
+	
+\@cdef{formssignaturelabel}{Assinatura}
+\@cdef{examinersignature}{Assinatura\ \ d\@case{@@examinersgender}\ \ Avaliador\@ncase{@@examinersgender}}
+\@cdef{boardsignature}{Assinatura\ \ do\ \ Membro\ \ da\ \ Banca}
+\@cdef{advisorsignature}{Assinatura\ \ d\@case{\@@advisorgender}\ \ Orientador\@ncase{\@@advisorgender}}
+\@cdef{studentsignature}{Assinatura\ \ d\@case{\@@studentgender}\ \ Alun\@case{\@@studentgender}}
+\@cdef{formsstudentlabel}{Alun\@case{\@@studentgender}}
+\@cdef{formproflabel}{Professor(a)}
+\@cdef{profname}{Professor(a)}
+\@cdef{coprofname}{Professor(a)}
+\@cdef{formsboardlabel}{Membro da Banca}
+\@cdef{formsadvisorlabel}{Orientador\@ncase{\@@advisorgender}}
+\@cdef{formsexaminerlabel}{Avaliador\@ncase{@@examinersgender}}
+\@cdef{formsaltexaminerlabel}{Suplente}
+\@cdef{formstimelabel}{Horário}
+\TCCpointsweight{0.35}{0.35}{0.3}
+\TCCpointslabel{Conteúdo}{Trab. Escrito}{Apresentação}
+\TCCgrades{A}{B}{C}{D}{FF}
+\TCCgradesN{9}{7.5}{6}
+\@cdef{TCCgradesNlabel}{Nota}
+\@cdef{TCCgradesClabel}{Conceito}
+
+%\@cdef{formstopicAlabel}{Conteúdo}
+%\@cdef{formstopicBlabel}{Trabalho Escrito}
+%\@cdef{formstopicClabel}{Apresentação}
+\@cdef{formsworktitlelabel}{Título do Trabalho}
+\@cdef{formstemptitlelabel}{Título Provisório}
+\@cdef{formsstudentIDlabel}{Cartão}
+\@cdef{formsemaillabel}{e-mail}
+\@cdef{formsphonelabel}{ramal}
+\@cdef{boardsworklabel}{Título}
+
+
+
+%\subject{xyz}
+
+\@cdef{continuelabel}{Continua...}
+
+\@cdef{formsdatelabel}{Data}
+
+\@cdef{formstitle}{Trabalho de Conclusão de Curso em \@course}
+
+\@cdef{boardstitle}{Apresentações TCC em \@course\ \@TCCperiod\ \@boardstitleB\ }
+
+\@cdef{formsfootnote}{Entregar a cada membro da banca juntamente com a cópia do trabalho.}
+
+\@cdef{studentlistformtitle}{Lista de presença, apresentação da atividade de TCC, dia \@studentlistdate}
+\@cdef{studentlistdate}{\number\day/\number\month}
+
+
+
+\@cdef{renewreqformtitle}{Formulário de Renovação da Inscrição na Atividade de Ensino Trabalho de Conclusão em \@course}
+
+\@cdef{renewreqformnotes}{O resumo deve ser curto, i.e., não deve exceder este espaço. O texto deve ser escrito em parágrafo único, e por se tratar de proposta, poderá utilizar tempo futuro e não necessita ter motivação ou justificativa.\\
+Deve conter:
+\begin{enumerate}
+	\item O QUE será feito - descrição e objetivos.
+  \item COMO será feito - metodologia.
+	\item Resultados esperados.
+\end{enumerate}}
+
+\@cdef{reqformtitle}{Formulário de Requerimento de Matrícula}
+\@cdef{reqformopening}{Ilm\@case{@TCCcoordgender}. Sr\@ncase{@TCCcoordgender}.
+
+ Coordenador\@ncase{@TCCcoordgender} da Comissão de Graduação do Curso de \@course , {\bf \@universityacronym\ }}
+
+\@cdef{reqformdesc}{\@Case{\@@studentgender} alun\@case{\@@studentgender} \@studentA , REGULARMENTE MATRICULAD\@Case{\@@studentgender} neste período letivo no curso \emph{\@course\ }, desta universidade, portador\@ncase{\@@studentgender} do cartão de identificação n$^o$ \@studentAID\ vem por meio desta solicitar matrícula na atividade de ensino de \@formstitle}
+
+
+\@cdef{formsstudentemaillabel}{Email d\@case{\@@studentgender} Alun\@case{\@@studentgender}}
+
+\@cdef{formsadvisoremaillabel}{Email d\@case{\@@advisorgender} Orientador\@ncase{\@@advisorgender}}
+
+\@cdef{formsbrieflabel}{Resumo}
+
+
+\@cdef{examformtitle}{Formulário de Avaliação da Banca Examinadora}
+
+\@cdef{examformdesc}{A nota (variando de zero a dez) atribuída por cada membro da banca examinadora será dada considerando o desempenho d\@case{\@@studentgender} alun\@case{\@@studentgender} nos 3 pontos apresentados na tabela abaixo.}
+
+\@cdef{examformnoteslabel}{Observações}
+
+\@cdef{examformnotes}{\ \\Posteriormente, \@case{@TCCcoordgender} professor\@ncase{@TCCcoordgender} coordenador\@ncase{@TCCcoordgender} calculará a nota final atribuída por cada membro da banca examinadora, de acordo com a seguinte ponderação:\\[2mm] {\bf Nota Final Banca = \@TCCpointAweight\ x \@TCCpointAlabel\  + \@TCCpointBweight\ x \@TCCpointBlabel\  + \@TCCpointCweight\ x \@TCCpointClabel\ } \\[2mm] A média final da atividade será dada pela média das notas finais (calculadas com a expressão acima) atribuidas por cada um dos membros da banca examinadora.}
+
+\@cdef{examboardformtitle}{Formulário de Aprovação d\@case{\@@advisorgender} Orientador\@ncase{\@@advisorgender} (Relatório Parcial)}
+
+\@cdef{examboardformdesc}{Aprovo o Relatório Parcial e nominata da Banca Examinadora acima relacionada.}
+
+\@cdef{formsboardtitle}{Banca Examinadora}
+
+\@cdef{advisorapprovalformtitle}{Formulário de Aprovação d\@case{\@@advisorgender} Orientador\@ncase{\@@advisorgender} para Apresentação}
+
+\@cdef{advisorapprovalformdesc}{{\bf Parecer d\@case{\@@advisorgender} Orientador\@ncase{\@@advisorgender}}\footnote{Preenchimento Obrigatório}}
+
+\@cdef{rectifyapprovalformtitle}{Formulário de Aprovação das Correções}
+
+\@cdef{rectifyapprovalformdesc}{\begin{description}
+\item[Observação 1:] A nota final será a já atribuída pela Banca Examinadora no momento da Defesa. Caso a versão final corrigida do trabalho mais este formulário não sejam entregues até a data estipulada, o conceito do aluno passará a ser {\bf D}.
+\item[Observação 2:] A assinatura d\@case{\@@advisorgender} orientador\@ncase{\@@advisorgender} é obrigatória, entretanto a assinatura dos membros da banca só é necessária caso o(a) mesmo(a) tenha marcado a opção "$\Box$ Revisarei o trabalho depois de corrigido" no \emph{Formulário de Correções}.
+\end{description}}
+
+\@cdef{recieptformtitle}{Recibo de entrega de cópia da versão final do Trabalho de Conclusão a membro da Banca Examinadora}
+
+\@cdef{recieptformfootnote}{Entregar a cada membro da banca juntamente com a cópia do trabalho final e após encaminhar ao \@secretaryacronym .}
+
+\@cdef{recieptformdesc}{Declaro que encontra-se em minha posse cópia da versão final do Trabalho de Conclusão de Curso em \@course\  d\@case{\@@studentgender} alun\@case{\@@studentgender} }
+
+
+\@cdef{reviewformtitle}{Formulário de Correções}
+\@cdef{reviewformdesc}{Correções: \parbox[t]{.8\textwidth}{
+	\begin{description}
+	\item[$\Box$] Nenhuma
+	\item[$\Box$] Ortográfica
+	\item[$\Box$] Regras de Escrita
+	\item[$\Box$] Equações
+	\item[$\Box$] Resumo
+	\item[$\Box$] Abstract
+	\item[$\Box$] Índice
+	\item[$\Box$] Introdução
+	\item[$\Box$] Conclusões
+	\item[$\Box$] Corpo do Trabalho
+	\item[$\Box$] Resultados
+	\item[$\Box$] Adicionar mais exemplos
+	\item[$\Box$] Figuras
+	\item[$\Box$] Tabelas
+	\item[$\Box$] {\bf Reescrever tudo}\footnotemark[2]
+	\item[$\Box$] Outras: \\
+	\begin{tabular}{p{0.7\textwidth}}
+	~\\\hline
+	~\\\hline
+	~\\\hline
+	~\\\hline
+	\end{tabular}
+	\item[$\Box$] {\bf Revisarei o trabalho depois de corrigido}\footnotemark[2]
+	\end{description}}
+}
+
+\@cdef{reviewformfootnoteB}{Neste caso \@case{\@@studentgender} alun\@case{\@@studentgender} estará em EXAME e receberá conceito final C ou D, conforme revisão final do texto.}
+
+\@cdef{formsrectifyOKdesc}{Correções satisfatórias: \hspace*{1cm}$\Box$\ sim\hspace*{2cm}$\Box$\ não}
+
+
+  \@cdef{formlocal}{\@city,\hspace{4mm} de \hspace{1.2cm} de 20\hspace{4mm}.}
+	
+
+
+\@cdef{calendartitle}{Calendário – \@TCCperiod}
+\tcccalendarhead{Data/Período}{Semanas Letivas}{Evento}
+\tcccalendarevent{01 a 02}{Requerimento de matrícula. O(A) aluno(a) deve preencher o \emph{Formulário de Requerimento de Matrícula} e encaminhá-lo ao setor de protocolo da UFRGS para abertura de processo. Posteriormente, o número do processo deve ser encaminhado por e-mail para \@case{@TCCcoordgender} coordenador\@ncase{@TCCcoordgender} da atividade.}
+\tcccalendarevent{02}{Apresentação da disciplina. Informações gerais. Reunião presencial com início às 17:30h, no Salão de Eventos do DELET.\linebreak {\bf Presença obrigatória.}}
+\tcccalendarevent{03}{Entrega do \emph{Formulário de Inscrição}, juntamente com o resumo do trabalho, no \@secdivisionacronym .}
+\tcccalendarevent{09}{Entrega VIA MOODLE do \emph{Relatório Parcial}, juntamente com o formulário assinado de aprovação do orientador do relatório e dos nomes dos professores convidados que constituirão a banca examinadora (e de um membro suplente). {\bf Obs. 1}}
+\tcccalendarevent{15}{Entrega de uma cópia impressa (ou eletrônica) do Trabalho de Conclusão a cada membro da banca, juntamente com os formulários de avaliação e de correções do trabalho. Entrega VIA MOODLE de uma cópia eletrônica do trabalho juntamente com o formulário de aprovação do(a) orientador(a) e os recibos (ou e-mail) de recebimento assinados e datados pelos membros das bancas.}
+\tcccalendarevent{17}{Apresentações dos Trabalhos de Conclusão de Curso. {\bf Obs. 2}}
+\tcccalendarevent{18}{Entrega VIA MOODLE da versão final corrigida do trabalho, juntamente com os formulários de correções dos membros da banca e o formulário de aprovação das correções. Entrega do formulário de autorização para publicação (biblioteca) assinado na secretaria do DELAE. {\bf Obs. 3}}
+\tcccalendarevent{19}{Para os TCCs em RECUPERAÇÃO, entrega VIA MOODLE da versão final corrigida do trabalho, juntamente com os formulários de correções dos membros da banca e o formulário de aprovação das correções. Entrega do formulário de autorização para publicação (biblioteca) assinado na secretaria do DELAE. {\bf Obs. 4}}
+
+\@cdef{tcccalendardesc}{\begin{description}
+\item[Obs. 1]: O relatório deve conter as declarações de concordância em participar da banca da parte dos professores convidados.
+\item[Obs. 2]: As bancas serão marcadas após a entrega do relatório parcial, de acordo com a disponibilidade dos professores convidados.
+\item[Obs. 3]: O formulário de aprovação deve estar assinado pelo(a) orientador(a). Para relatórios em que o campo “Revisarei o trabalho depois de corrigido” tiver sido assinalado por algum membro da banca, a assinatura do(a) mesmo(a) também deverá constar no formulário de aprovação.
+\item[Obs. 4]: Trabalho em RECUPERAÇÃO é aquele cuja nota final quando da defesa é insuficiente para aprovação OU aquele em que o campo “Reescrever tudo” do formulário de correções foi marcado por algum membro da banca. Neste caso, o formulário de aprovação das correções deve estar assinado tanto pelo(a) orientador(a) como pelo(s) membro(s) da banca designado(s) para reavaliar o trabalho, incluindo obrigatoriamente aqueles que tiverem marcado o referido campo.
+\item[Obs 5]: O(A) aluno(a) estará REPROVADO se falhar na entrega de qualquer um dos documentos aqui citados dentro dos prazos estipulados.
+\end{description}}
+
+
+\@cdef{TCCcoordtitle}{Coordenador\@ncase{@TCCcoordgender} da atividade de ensino de\\ \@formstitle\ }
+\@cdef{tccreportopening}{Ao\\ \@divisiongradcouncil\ da  \@universityacronym}
+\@cdef{tccreportdesc}{Seguem em anexo os conceitos auferidos pelos alunos matriculados na atividade de ensino de \@formstitle\  referente ao semestre \@TCCperiod .}
+\@cdef{tccreportabsents}{Desistentes com conceito (segundo semestre)}
+\@cdef{tccreportdismiss}{Desistentes sem conceito (primeiro semestre)}
+\@cdef{tccreferralopening}{Ao\\ \@secretaryacronym\ da \@universitydivision}
+
+\@cdef{referralfailed}{\MakeUppercase{reprovad\@case{\@@studentgender}}}
+\@cdef{referralapproved}{\MakeUppercase{aprovad\@case{\@@studentgender}}}
+
+\@cdef{referralexamapprovedtext}{\@Case{\@@studentgender} alun\@case{\@@studentgender} \emph{\@@studentref{}}\ apresentou o trabalho entitulado \emph{\@@studentref{title}}\  no dia  \@@studentref{date}, n\~{a}o tendo sido considerad\@case{\@@studentgender} apt\@case{\@@studentgender} pela banca listada abaixo. Posto em exame, \@case{\@@studentgender} mesm\@case{\@@studentgender} foi \@referralapproved\ com conceito final \@TCCgradeC .}
+
+\@cdef{referralexamfailtext}{\@Case{\@@studentgender} alun\@case{\@@studentgender} \emph{\@@studentref{}}\ apresentou o trabalho entitulado \emph{\@@studentref{title}}\  no dia  \@@studentref{date}, n\~{a}o tendo sido considerad\@case{\@@studentgender} apt\@case{\@@studentgender}  pela banca listada abaixo. Posto em exame, \@case{\@@studentgender} mesm\@case{\@@studentgender} foi \@referralfailed\ com conceito final \@TCCgradeD .}
+
+\@cdef{referralfatetext}{\@Case{\@@studentgender} alun\@case{\@@studentgender} \emph{\@@studentref{}}\ apresentou o trabalho entitulado \emph{\@@studentref{title}}\  no dia \@@studentref{date}, tendo sido \@referralfate{\@@studentref{Temp}} com conceito final \textbf{\@@fate{\Alph{TCC@studentcount}}}, conforme quadro de notas abaixo. }
+
+\@cdef{referralfailFF}{\@Case{\@@studentgender} alun\@case{\@@studentgender} \emph{\@@studentref{}}\ n\~{a}o concluiu o trabalho de conclus\~{a}o de Curso tendo sido \@referralfailed\  com conceito final \textbf{FF}.}
+
+\@cdef{boardlabel}{Banca Examinadora}
+

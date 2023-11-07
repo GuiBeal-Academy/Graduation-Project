@@ -1,0 +1,249 @@
+\makeatletter
+
+%\DefineBibliographyStrings{brazilian}{%
+%  references = {{Referências Bibliográficas}}%
+%}%
+
+  \@cdef{advisorname}{Orientador\@@advisorref{narticle}}%
+	\@cdef{coadvisorname}{Coorientador\@@coadvisorref{narticle}}%
+	\@cdef{advisoringname}{Orientação}%
+	\@cdef{examinername}{Banca Examinadora}%
+	\@cdef{coordname}{Coordenação da Comissão de Graduação em \@course}%
+
+  \location{Porto~Alegre}{RS}
+
+\@cdef{university}{Universidade Federal do Rio Grande do Sul}
+\@cdef{universityacronym}{UFRGS}
+\@cdef{universitydivision}{Escola de Engenharia}
+\@cdef{divisiongradcouncil}{Conselho de Graduação da \@universitydivision}
+\@cdef{secretaryacronym}{SACAD}
+\@cdef{secdivisionacronym}{\@secretaryacronym/EE}
+\@cdef{graduationtitle}{Bacharel em Eng. de Controle e Automa\c{c}\~{a}o}
+\@cdef{course}{Eng. de Controle e Automa\c{c}\~{a}o}
+\@cdef{courseacronym}{CCA}
+\@cdef{coursecoord}{Atual Coordenador(a) do Curso}
+\@cdef{coursecoordtitle}{Coordenador(a) de curso}
+
+  \cipspecificinfo{Trabalho de Conclusão de Curso}
+	\cipunit{\@universitydivision\ da~\@universityacronym}
+
+	\@cdef{TCCspecificinfo}{%
+		Trabalho de Conclus\~{a}o de Curso (TCC) apresentado \`{a}
+		Comissão de Graduação em \@course\ (COMGRAD-\@courseacronym) da \@university\ como parte dos requisitos para a
+		obten{\c{c}}{\~a}o do t\'{\i}tulo de \emph{\@graduationtitle }.
+	}%
+	%%%%%\makeatother
+	
+	
+	\@cdef{TCCapproval}{%
+		Este Trabalho foi julgado adequado para a
+		obten\c{c}\~ao dos cr\'editos da Disciplina \emph{\@tcc\ } do curso \emph{\@course\ } e aprovado em sua forma final pel\@@advisorref{article}
+		Orientador\@@advisorref{narticle} e pela Banca Examinadora.
+	}%
+
+
+\@cdef{formssignaturelabel}{Assinatura}
+\@cdef{examinersignature}{Assinatura\ \ d\@@examinerref{article}\ \ Avaliador\@@examinerref{narticle}}
+\@cdef{boardsignature}{Assinatura\ \ do\ \ Membro\ \ da\ \ Banca}
+\@cdef{advisorsignature}{Assinatura\ \ d\@@advisorref{article}\ \ Orientador\@@advisorref{narticle}}
+\@cdef{coadvisorsignature}{Assinatura\ \ d\@@coadvisorref{article}\ \ Co-orientador\@@coadvisorref{narticle}}
+\@cdef{studentsignature}{Assinatura\ \ d\@@studentref{article}\ \ Alun\@@studentref{article}}
+\@cdef{studentsignaturegen}{Assinatura\ \ do(a)\ \ Aluno(a)}
+\@cdef{formsstudentlabel}{Alun\@@studentref{article}}
+\@cdef{formsstudentlabelgen}{Aluno(a)}
+\@cdef{formproflabel}{Professor(a)}
+\@cdef{profname}{Professor\@@advisorref{narticle}}
+\@cdef{coprofname}{Professor\@@coadvisorref{narticle}}
+\@cdef{formsboardlabel}{Membro da Banca}
+\@cdef{formsadvisorlabel}{Orientador\@@advisorref{narticle}}
+\@cdef{formsadvisorlabelgen}{Orientador(a)}
+\@cdef{formscoadvisorlabel}{Co-orientador\@@advisorref{narticle}}
+\@cdef{formsexaminerlabel}{Avaliador\@@examinerref{narticle}}
+\@cdef{formsaltexaminerlabel}{Suplente}
+\@cdef{formstimelabel}{Horário}
+\TCCpointsweight{0.35}{0.35}{0.3}
+\TCCpointslabel{Conteúdo}{Trab. Escrito}{Apresentação}
+\TCCgrades{A}{B}{C}{D}{FF}
+\TCCgradesN{9}{7.5}{6}
+\@cdef{TCCgradesNlabel}{Nota}
+\@cdef{TCCgradesClabel}{Conceito}
+
+%\@cdef{formstopicAlabel}{Conteúdo}
+%\@cdef{formstopicBlabel}{Trabalho Escrito}
+%\@cdef{formstopicClabel}{Apresentação}
+\@cdef{formsworktitlelabel}{Título do Trabalho}
+\@cdef{formstemptitlelabel}{Título Provisório}
+\@cdef{formsstudentIDlabel}{Cartão}
+\@cdef{formsemaillabel}{e-mail}
+\@cdef{formsphonelabel}{ramal}
+\@cdef{boardsworklabel}{Título}
+\@cdef{agreelabel}{De Acordo}
+
+
+
+
+\@cdef{continuelabel}{Continua...}
+
+\@cdef{formsdatelabel}{Data}
+
+\@cdef{formstitle}{Trabalho de Conclusão de Curso em \@course}
+
+\@cdef{boardstitle}{Apresentações TCC em \@course\ \@TCCperiod\ \@boardstitleB\ }
+
+\@cdef{formsfootnote}{Entregar a cada membro da banca juntamente com a cópia do trabalho.}
+
+\@cdef{studentlistformtitle}{Lista de presença, \@studentlistactivity, dia \@studentlistdate}
+\@cdef{studentlistactivity}{apresentação da atividade de TCC}
+\@cdef{studentlistdate}{\number\day/\number\month}
+
+\@cdef{renewreqformtitle}{Formulário de Renovação da Inscrição na Atividade de Ensino Trabalho de Conclusão em \@course}
+
+\@cdef{renewreqformnotes}{O resumo deve ser curto, i.e., não deve exceder este espaço. O texto deve ser escrito em parágrafo único, e por se tratar de proposta, poderá utilizar tempo futuro e não necessita ter motivação ou justificativa.\\
+Deve conter:
+\begin{enumerate}
+	\item O QUE será feito - descrição e objetivos.
+  \item COMO será feito - metodologia.
+	\item Resultados esperados.
+\end{enumerate}}
+
+\@cdef{reqformtitle}{Formulário de Requerimento de Matrícula}
+\@cdef{reqformopening}{Ilm\@@coursecoordref{article}. Sr\@@coursecoordref{narticle}.
+
+ Coordenador\@@coursecoordref{narticle} da  Comissão de Graduação do Curso de \@course , {\bf \@universityacronym\ }}
+
+\@cdef{reqformdesc}{\@@studentref{Article} alun\@@studentref{article} \@studentA , REGULARMENTE MATRICULAD\@@studentref{Article} neste período letivo no curso \emph{\@course\ }, desta universidade, portador\@@studentref{narticle} do cartão de identificação n$^o$ \@studentAID\ vem por meio desta solicitar matrícula na atividade de ensino de \@formstitle}
+
+\@cdef{coadvisorformtitle}{Requerimento de Autorização de Co-Orientação}
+\@cdef{coadvisorformdesc}{\@@studentref{Article} alun\@@studentref{article} \@studentA , REGULARMENTE MATRICULAD\@@studentref{Article} na atividade de TCC neste período letivo, vem por meio desta solicitar autorização para registro de co-orientador de TCC, conforme justificativa abaixo.}
+
+\@cdef{formsbrieflabel}{Resumo}
+
+\@cdef{formsstudentemaillabel}{Email d\@@studentref{article} Alun\@@studentref{article}}
+
+\@cdef{formsadvisoremaillabel}{Email d\@@advisorref{article} Orientador\@@advisorref{narticle}}
+
+\@cdef{formsreasonlabel}{Justificativa}
+
+\@cdef{examformtitle}{Formulário de Avaliação}
+
+\@cdef{examformdesc}{A nota (variando de zero a dez) atribuída por cada membro da banca examinadora será dada considerando o desempenho d\@@studentref{article} alun\@@studentref{article} nos 3 pontos apresentados na tabela abaixo.}
+
+\@cdef{examformnoteslabel}{Observações}
+
+\@cdef{examformnotes}{\ \\Posteriormente, \@@TCCcoordref{article} professor\@@TCCcoordref{narticle} coordenador\@@TCCcoordref{narticle} calculará a nota final atribuída por cada membro da banca examinadora, de acordo com a seguinte ponderação:\\[2mm] {\bf Nota Final Banca = \@TCCpointAweight\ x \@TCCpointAlabel\  + \@TCCpointBweight\ x \@TCCpointBlabel\  + \@TCCpointCweight\ x \@TCCpointClabel\ } \\[2mm] A média final da atividade será dada pela média das notas finais (calculadas com a expressão acima) atribuidas por cada um dos membros da banca examinadora.}
+
+\@cdef{examboardformtitle}{Formulário de Aprovação do Relatório Parcial e Banca Examinadora}
+
+\@cdef{examboardformdesc}{Aprovo o Relatório Parcial e nominata da Banca Examinadora acima relacionada.}
+
+\@cdef{formsboardtitle}{Banca Examinadora}
+
+\@cdef{advisorapprovalformtitle}{Formulário de Aprovação para Apresentação}
+
+\@cdef{advisorapprovalformdesc}{{\bf Parecer d\@@advisorref{article} Orientador\@@advisorref{narticle}}\footnote{Preenchimento Obrigatório}}
+
+\@cdef{advisorapprovalformdescB}{Aprovo a versão final do trabalho submetido pel\@@studentref{article} alun\@@studentref{article} e considero \@@studentref{article} mesm\@@studentref{article} apt\@@studentref{article} para apresentação.}
+
+\@cdef{rectifyapprovalformtitle}{Formulário de Aprovação das Correções}
+
+\@cdef{rectifyapprovalformdesc}{\begin{description}
+\item[Observação 1:] A nota final será a já atribuída pela Banca Examinadora no momento da Defesa. Caso a versão final corrigida do trabalho mais este formulário não sejam entregues até a data estipulada, o conceito do aluno passará a ser {\bf D}.
+\item[Observação 2:] A assinatura d\@@advisorref{article} orientador\@@advisorref{narticle} é obrigatória, entretanto a assinatura dos membros da banca só é necessária caso o(a) mesmo(a) tenha marcado a opção "$\Box$ Revisarei o trabalho depois de corrigido" no \emph{Formulário de Correções}.
+\end{description}}
+
+\@cdef{recieptformtitle}{Recibo de entrega de cópia da versão final do Trabalho de Conclusão}
+
+\@cdef{recieptformfootnote}{Entregar a cada membro da banca juntamente com a cópia do trabalho final e após encaminhar ao \@secretaryacronym .}
+
+\@cdef{recieptformdesc}{Declaro que encontra-se em minha posse cópia da versão final do Trabalho de Conclusão de Curso em \@course\  d\@@studentref{article} alun\@@studentref{article} }
+
+
+\@cdef{reviewformtitle}{Formulário de Correções}
+\@cdef{reviewformdesc}{Correções: \parbox[t]{.8\textwidth}{
+	\begin{description}
+	\item[$\Box$] Nenhuma
+	\item[$\Box$] Ortográfica
+	\item[$\Box$] Regras de Escrita
+	\item[$\Box$] Equações
+	\item[$\Box$] Resumo
+	\item[$\Box$] Abstract
+	\item[$\Box$] Índice
+	\item[$\Box$] Introdução
+	\item[$\Box$] Conclusões
+	\item[$\Box$] Corpo do Trabalho
+	\item[$\Box$] Resultados
+	\item[$\Box$] Adicionar mais exemplos
+	\item[$\Box$] Figuras
+	\item[$\Box$] Tabelas
+	\item[$\Box$] {\bf Reescrever tudo}\footnotemark[2]
+	\item[$\Box$] Outras: \\
+	\begin{tabular}{p{0.7\textwidth}}
+	~\\\hline
+	~\\\hline
+	~\\\hline
+	~\\\hline
+	\end{tabular}
+	\item[$\Box$] {\bf Revisarei o trabalho depois de corrigido}%\footnotemark[2]
+	\end{description}}
+}
+
+\@cdef{reviewformfootnoteB}{Neste caso \@@studentref{article} alun\@@studentref{article} estará em EXAME e receberá conceito final C ou D, conforme revisão final do texto.}
+
+\@cdef{reviewformfootnote}{\@formsfootnote\ Após a apresentação, retornar este à coordenação do TCC.}
+
+\@cdef{formsrectifyOKdesc}{Correções satisfatórias: \hspace*{1cm}$\Box$\ sim\hspace*{2cm}$\Box$\ não}
+
+
+\@cdef{formlocal}{\@city,\hspace{4mm} de \hspace{1.2cm} de 20\hspace{4mm}.}
+	
+
+
+\@cdef{calendartitle}{Calendário – \@TCCperiod}
+\tcccalendarhead{Data/Período}{Semana Letiva}{Evento}
+\tcccalendarevent{01}{Apresentação da disciplina. Informações gerais. Reunião presencial com início às 18:30h, no Salão de Eventos do DELET.\newline {\bf Presença obrigatória.}}
+\tcccalendarevent{02}{Requerimento de matrícula. O(A) aluno(a) deve preencher o \emph{Formulário de Requerimento de Matrícula}, já com o resumo do trabalho, e encaminhá-lo ao setor de protocolos da UFRGS para abertura de processo. Posteriormente, o número do processo deve ser encaminhado por e-mail para \@@TCCcoordref{article} coordenador\@@TCCcoordref{narticle} da atividade. \newline{\bf Obs.~1}}
+%\tcccalendarevent{03}{Entrega do \emph{Formulário de Inscrição}, juntamente com o resumo do trabalho, no \@secdivisionacronym .}
+\tcccalendarevent{09}{Encontro presencial: Como redigir um TCC, melhores práticas. Início às 18:30h, no Salão de Eventos do DELET.}% \newline {\bf Presença obrigatória.}}
+\tcccalendarevent{09}{Entrega VIA MOODLE do \emph{Relatório Parcial}, juntamente com o \emph{Formulário de Aprovação do Relatório Parcial e Banca Examinadora} assinado pelo orientador. \newline{\bf Obs.~2}}
+\tcccalendarevent{15}{Entrega de uma cópia impressa (ou eletrônica) do Trabalho de Conclusão a cada membro da banca, juntamente com os \emph{Formulários de Avaliação} e \emph{Formulários de correções} do trabalho. Entrega VIA MOODLE de uma cópia eletrônica do trabalho juntamente com o \emph{Formulário de Aprovação para Apresentação} e os recibos de recebimento assinados e datados pelos membros das bancas.}
+\tcccalendarevent{16}{Encontro presencial: Como apresentar um TCC, melhores técnicas. Início às 18:30h, no Salão de Eventos do DELET.}% \newline {\bf Presença obrigatória.}}
+\tcccalendarevent{17}{Apresentações dos Trabalhos de Conclusão de Curso. \newline{\bf Obs.~3}}
+\tcccalendarevent{17}{Entrega VIA MOODLE dos \emph{Formulários de correções} dos membros da banca.}
+\tcccalendarevent{18}{Entrega VIA MOODLE da versão final corrigida do trabalho e o \emph{Formulário de Aprovação das Correções}. Entrega do formulário de autorização para publicação (biblioteca) assinado na secretaria do DELAE. \newline{\bf Obs.~4}}
+\tcccalendarevent{19}{Para os TCCs em RECUPERAÇÃO, entrega VIA MOODLE da versão final corrigida do trabalho e o \emph{Formulário de Aprovação das Correções}. Entrega do formulário de autorização para publicação (biblioteca) assinado na secretaria do DELAE. \newline{\bf Obs.~5}}
+
+
+\@cdef{tcccalendardesc}{\begin{description}
+\item[Obs. 1]: Caso o aluno(a) já tenha um processo aberto de TCC, reusar o mesmo apenas anexando o novo requerimento de matrícula, caso necessário.
+\item[Obs. 2]: O relatório deve conter as declarações de concordância em participar da banca da parte dos professores convidados.
+\item[Obs. 3]: As bancas serão marcadas após a entrega do relatório parcial, de acordo com a disponibilidade dos professores convidados.
+\item[Obs. 4]: O \emph{Formulário de Aprovação das Correções} deve estar assinado pelo(a) orientador(a). Para relatórios em que o campo “Revisarei o trabalho depois de corrigido” tiver sido assinalado por algum membro da banca, a assinatura do(a) mesmo(a) também deverá constar no \emph{Formulário de Aprovação das Correções}.
+\item[Obs. 5]: Trabalho em RECUPERAÇÃO é aquele cuja nota final quando da defesa é insuficiente para aprovação OU aquele em que o campo “Reescrever tudo” do formulário de correções foi marcado por algum membro da banca. Neste caso, o \emph{Formulário de Aprovação das Correções} deve estar assinado tanto pelo(a) orientador(a) como pelo(s) membro(s) da banca designado(s) para reavaliar o trabalho, incluindo obrigatoriamente aqueles que tiverem marcado o campo “Revisarei o trabalho depois de corrigido”.\\\hrule
+\item[IMPORTANTE]: O(A) aluno(a) estará {\bf REPROVADO(A)} \emph{se falhar na entrega de qualquer um dos documentos aqui citados dentro dos prazos estipulados}.
+\end{description}}
+
+
+\@cdef{TCCcoordtitle}{Coordenador\@@TCCcoordref{narticle} da atividade de ensino de\\ \@formstitle\ }
+%%\@cdef{tccreportopening}{Ao\\ \@divisiongradcouncil\ da  \@universityacronym}
+%%\@cdef{tccreportdesc}{Seguem em anexo os conceitos auferidos pelos alunos matriculados na atividade de ensino de \@formstitle\  referente ao semestre \@TCCperiod .}
+\@cdef{tccreporttitle}{Relatório parcial/final}
+\@cdef{tccreportopening}{Para registro}
+\@cdef{tccreportdesc}{Relatório parcial/final referente aos alunos matriculados na atividade de ensino de \@formstitle\  semestre \@TCCperiod .}
+
+\@cdef{tccreportabsents}{Desistentes com conceito (segundo semestre)}
+\@cdef{tccreportdismiss}{Desistentes sem conceito (primeiro semestre)}
+\@cdef{tccreferralopening}{Ao\\ \@secretaryacronym\ da \@universitydivision}
+
+\@cdef{referralfailed}{\MakeUppercase{reprovad\@@studentref{article}}}
+\@cdef{referralapproved}{\MakeUppercase{aprovad\@@studentref{article}}}
+
+\@cdef{referralexamapprovedtext}{\@@studentref{Article} alun\@@studentref{article} \emph{\@@studentref{}}\ apresentou o trabalho entitulado \emph{\@@studentref{title}}\  no dia  \@@studentref{date}, n\~{a}o tendo sido considerad\@@studentref{article} apt\@@studentref{article} pela banca listada abaixo. Posto em exame, \@@studentref{article} mesm\@@studentref{article} foi \@referralapproved\ com conceito final \@TCCgradeC .}
+
+\@cdef{referralexamfailtext}{\@@studentref{Article} alun\@@studentref{article} \emph{\@@studentref{}}\ apresentou o trabalho entitulado \emph{\@@studentref{title}}\  no dia  \@@studentref{date}, n\~{a}o tendo sido considerad\@@studentref{article} apt\@@studentref{article}  pela banca listada abaixo. Posto em exame, \@@studentref{article} mesm\@@studentref{article} foi \@referralfailed\ com conceito final \@TCCgradeD .}
+
+\@cdef{referralfatetext}{\@@studentref{Article} alun\@@studentref{article} \emph{\@@studentref{}}\ apresentou o trabalho entitulado \emph{\@@studentref{title}}\  no dia \@@studentref{date}, tendo sido \@referralfate{\@@studentref{Temp}} com conceito final \textbf{\@@fate{\Alph{TCC@studentcount}}}, conforme quadro de notas abaixo. }
+
+\@cdef{referralfailFF}{\@@studentref{Article} alun\@@studentref{article} \emph{\@@studentref{}}\ n\~{a}o concluiu o trabalho de conclus\~{a}o de Curso tendo sido \@referralfailed\  com conceito final \textbf{FF}.}
+
+\@cdef{boardlabel}{Banca Examinadora}
+
